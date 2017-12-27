@@ -1,0 +1,18 @@
+c:\users\xinghua cheng\documents\visual studio 2012\Projects\checkMoutainShape\checkMoutainShape\bin\Debug\checkMoutainShape.exe.config
+C:\Users\Xinghua Cheng\documents\visual studio 2012\Projects\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.csprojResolveAssemblyReference.cache
+C:\Users\Xinghua Cheng\documents\visual studio 2012\Projects\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.Form1.resources
+C:\Users\Xinghua Cheng\documents\visual studio 2012\Projects\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.Properties.Resources.resources
+C:\Users\Xinghua Cheng\documents\visual studio 2012\Projects\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.csproj.GenerateResource.Cache
+C:\Users\Xinghua Cheng\documents\visual studio 2012\Projects\checkMoutainShape\checkMoutainShape\bin\Debug\checkMoutainShape.exe
+C:\Users\Xinghua Cheng\documents\visual studio 2012\Projects\checkMoutainShape\checkMoutainShape\bin\Debug\checkMoutainShape.pdb
+C:\Users\Xinghua Cheng\documents\visual studio 2012\Projects\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.exe
+C:\Users\Xinghua Cheng\documents\visual studio 2012\Projects\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.pdb
+E:\checkMoutainShape\checkMoutainShape\bin\Debug\checkMoutainShape.exe.config
+E:\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.exe
+E:\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.pdb
+E:\checkMoutainShape\checkMoutainShape\bin\Debug\checkMoutainShape.exe
+E:\checkMoutainShape\checkMoutainShape\bin\Debug\checkMoutainShape.pdb
+E:\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.Form1.resources
+E:\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.Properties.Resources.resources
+E:\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.csproj.GenerateResource.Cache
+E:\checkMoutainShape\checkMoutainShape\obj\Debug\checkMoutainShape.csprojResolveAssemblyReference.cache
