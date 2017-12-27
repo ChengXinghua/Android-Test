@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ebebeb">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="发布同游"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#f9f8f4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/divider_color_c7" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5pt"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="fill_parent"
+                    android:layout_height="17pt"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="同游要求"
+                    android:textSize="18dp" />
+
+                <EditText
+                    android:id="@+id/togeRequire"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:hint="简单介绍自己，写明同游对象的要求哦，比如年龄、性别等~"
+                    android:minLines="3"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:textColorHint="#d4d4d4"
+                    android:textSize="18dp" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5pt"
+                android:background="#ffffff"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="17pt"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="活动介绍"
+                    android:textSize="18dp" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="65dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="名称"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/togeActTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:hint="例如新生杯足球赛"
+                        android:minLines="2"
+                        android:textColorHint="#d4d4d4"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="日期"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/datechoose"
+                        android:layout_width="23dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.00"
+                        android:background="#ffffff"
+                        android:src="@drawable/time" />
+
+                    <TextView
+                        android:id="@+id/date_display"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_marginLeft="20dp"
+                        android:gravity="center_vertical"
+                        android:text="未选择"
+                        android:textSize="18dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="fill_parent"
+                        android:gravity="center"
+                        android:text="地址"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/addText"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:hint="例如南师大学海楼417教室"
+                        android:minLines="2"
+                        android:textColorHint="#d4d4d4"
+                        android:textSize="18dp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="65dp"
+                        android:layout_height="50dp"
+                        android:background="#ffffff"
+                        android:gravity="center"
+                        android:text="定位"
+                        android:textSize="18dp" />
+
+                    <ImageButton
+                        android:id="@+id/addmap"
+                        android:layout_width="23dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="0.00"
+                        android:background="#ffffff"
+                        android:src="@drawable/icon_marka" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5pt"
+                    android:background="#ffffff"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="17pt"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:background="#ffffff"
+                        android:paddingLeft="11dp"
+                        android:gravity="center_vertical"
+                        android:text="简介"
+                        android:textSize="18dp" />
+
+                    <EditText
+                        android:id="@+id/introduce"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#ffffff"
+                        android:gravity="center_vertical"
+                        android:hint="例如活动有什么有趣的地方"
+                        android:minLines="3"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:textColorHint="#d4d4d4"
+                        android:textSize="18dp" />
+
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="17pt"
+                    android:layout_marginLeft="5dp"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:gravity="center_vertical"
+                    android:text="活动海报"
+                    android:textSize="18dp" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffffff"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/btn_album"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:paddingTop="4dp"
+                        android:background="@drawable/button_style"
+                        android:drawableTop="@drawable/local"
+                        android:text="本地"
+                        android:textSize="12dp"
+                        />
+
+                    <Button
+                        android:id="@+id/btn_camera"
+                        android:layout_marginLeft="8dp"
+                        android:layout_width="50dp"
+                        android:layout_height="60dp"
+                        android:paddingTop="7dp"
+                        android:background="@drawable/button_style"
+                        android:layout_toRightOf="@id/btn_album"
+                        android:drawableTop="@drawable/camera"
+                        android:text="拍照"
+                        android:textSize="12dp"/>
+
+
+                    <ImageView
+                        android:id="@+id/iv_photo"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/button_style"
+                        android:layout_below="@id/btn_camera"
+                        android:scaleType="fitCenter"
+                        android:visibility="invisible"/>
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/publish_together"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="#a0d877"
+                android:text="发布"
+                android:textColor="#ffffff"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

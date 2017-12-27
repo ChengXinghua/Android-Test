@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:background="#ffffff"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:background="#00000000"
+            android:scaleType="fitXY"
+            android:src="@drawable/back" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginRight="35dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="个人空间"
+            android:textSize="16dp" />
+
+    </LinearLayout>
+
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:paddingBottom="20dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/background">
+
+                <LinearLayout
+                    android:layout_width="110dp"
+                    android:layout_height="140dp"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/individualspace_style"
+                    android:id="@+id/linearLayout10">
+
+                    <ImageButton
+                        android:id="@+id/imageButton"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_gravity="center"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/moon" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="110dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center_horizontal"
+                        android:text="南师地科院" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_toEndOf="@+id/linearLayout10"
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout2">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="20dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/individualspace_style"
+                        >
+
+                        <TextView
+                            android:layout_width="55dp"
+                            android:layout_height="fill_parent"
+                            android:text="学校"
+                            android:gravity="center_vertical"
+                            android:textSize="17dp"
+                            android:paddingLeft="5dp"
+                            />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="南京师范大学"
+                            android:textSize="17dp"
+                            android:paddingLeft="15dp"
+                            android:gravity="center_vertical" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/individualspace_style"
+                        >
+
+                        <TextView
+                            android:layout_width="55dp"
+                            android:layout_height="fill_parent"
+                            android:text="地区"
+                            android:gravity="center_vertical"
+                            android:textSize="17dp"
+                            android:paddingLeft="5dp"
+                            />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="南京市栖霞区"
+                            android:textSize="17dp"
+                            android:paddingLeft="15dp"
+                            android:gravity="center_vertical" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/individualspace_style"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView9"
+                            android:layout_width="55dp"
+                            android:layout_height="fill_parent"
+                            android:paddingLeft="5dp"
+                            android:gravity="center_vertical"
+                            android:text="组织类型"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="学生会组织"
+                            android:textSize="17dp"
+                            android:paddingLeft="15dp"
+                            android:gravity="center_vertical" />
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="2dp"
+                        android:orientation="horizontal"
+                        android:background="@drawable/individualspace_style"
+                        >
+
+                        <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="55dp"
+                            android:layout_height="fill_parent"
+                            android:paddingLeft="5dp"
+                            android:text="邮箱"
+                            android:gravity="center_vertical"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:layout_width="fill_parent"
+                            android:layout_height="fill_parent"
+                            android:text="1234567@qq.com"
+                            android:textSize="17dp"
+                            android:paddingLeft="15dp"
+                            android:gravity="center_vertical" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="21">
+
+                <ListView
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:clickable="true">
+
+                </ListView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

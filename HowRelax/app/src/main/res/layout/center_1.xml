@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="21"
+        android:background="#f9f8f4"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:text="我的"
+            android:textSize="16dp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider_color_c7" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="23">
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="#f9f8f4"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="4"
+                    android:background="#ffffff"
+                    android:orientation="horizontal">
+
+
+                    <ImageButton
+                        android:id="@+id/headpicture"
+                        android:layout_width="100dp"
+                        android:layout_height="124dp"
+                        android:layout_marginLeft="10pt"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp"
+                        android:scaleType="fitXY" />
+
+                    <Button
+                        android:id="@+id/individualspace"
+                        android:layout_width="0dp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="2"
+                        android:background="#ffffff"
+                        android:text="编辑或查看个人空间"
+                        android:textColor="#949494"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="10pt"
+                    android:layout_weight="5"
+                    android:background="#f9f8f4"
+                    android:orientation="vertical">
+
+
+                    <Button
+                        android:id="@+id/activitymanage"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="#ffffff"
+                        android:drawableLeft="@drawable/activitymanage"
+                        android:gravity="left|center"
+                        android:paddingLeft="22dp"
+                        android:text="活动管理"
+                        android:textSize="17dp" />
+
+                    <View
+                        android:layout_width="fill_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/divider_color_c7" />
+
+                    <Button
+                        android:id="@+id/point"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:background="#ffffff"
+                        android:drawableLeft="@drawable/point"
+                        android:gravity="left|center"
+                        android:paddingLeft="25dp"
+                        android:text="组织积分"
+                        android:textSize="17dp" />
+
+                    <Button
+                        android:id="@+id/setting"
+                        android:layout_width="fill_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="20dp"
+                        android:background="#ffffff"
+                        android:drawableLeft="@drawable/setting"
+                        android:gravity="left|center"
+                        android:paddingLeft="26dp"
+                        android:text="设置"
+                        android:textSize="17dp" />
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="2" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="129dp"
+                android:layout_height="69dp"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom|center">
+
+                <LinearLayout
+                    android:id="@+id/add_activity"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/addactivity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:clickable="false"
+                        android:src="@drawable/addactivity" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="活动"
+                        android:textSize="11dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/add_together"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/addtogether"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#00000000"
+                        android:clickable="false"
+                        android:src="@drawable/addtogether" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="同游"
+                        android:textSize="11dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:gravity="center"
+        android:background="#80ffffff"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:id="@+id/tab_main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+            <!-- android:clickable="false" 是为了防止ImageButton截取了触摸事件 ，这里事件要给它的上一级linearlayout-->
+            <ImageButton
+                android:id="@+id/tab_main_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/main" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="首页"
+                android:textSize="11dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_together"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/tab_together_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/together" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="同游"
+                android:textSize="11dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_publish"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/tab_publish_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:background="#00000000"
+                android:src="@drawable/publish" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_information"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/tab_information_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/information" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="消息"
+                android:textSize="11dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tab_person"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/tab_person_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:clickable="false"
+                android:src="@drawable/person_pressed" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的"
+                android:textSize="11dp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+
